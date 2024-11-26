@@ -5,3 +5,88 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+/* barra di ricerca iniziale */
+header {
+    min-height: 50px;
+    background-color: rgb(237, 111, 0);
+    margin-bottom: 20px;
+
+}
+
+/* shop */
+main {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.shop-img img {
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.shop-img {
+    min-height: 250px;
+    width: 31%;
+    margin-top: 30px;
+    position: relative;
+    
+ 
+}
+
+.hearts {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    padding: 10px;
+    background-color: white;
+    font-size: 25px;
+
+}
+
+.dettagli-general {
+    padding: 3px;
+    font-size: 10px;
+    color: white;
+
+}
+
+.scount {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    background-color: red;
+    
+}
+
+.sostenibile {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    background-color: green;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* barra di ricerca footer */
+
+footer {
+    min-height: 60px ;
+    background-color: black;
+    margin-top: 70px;
+}
