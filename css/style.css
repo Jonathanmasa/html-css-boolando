@@ -8,12 +8,15 @@
 
 /* barra di ricerca iniziale */
 header {
-    min-height: 50px;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
     background-color: rgb(237, 111, 0);
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 }
 
@@ -101,7 +104,6 @@ main {
     
 
 }
-
 
 
 
