@@ -19,6 +19,7 @@ header {
 
 }
 
+
 .barra-principale {
     display: flex;
     
@@ -103,6 +104,10 @@ main {
     font-size: 25px;
 
 
+}
+
+.hearts:hover {
+    color: red;
 }
 
 
